@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.react-tabs{
+  width: 100%
+  
+}
+
+.react-tabs__tab-list {
+  display: flex;
+  list-style: none;
+  padding: 10px;
+  background-color: beige ;
+  
+  
+}
+
+.react-tabs__tab-list li {
+  
+  color: #e8630a ; 
+  display: inline-block;
+  font-weight: 600;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  line-height: 1.5;
+  
+}
+

@@ -1,0 +1,44 @@
+.hero {
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/back_pic/03/70/92/9057b6fa2816639.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.form {
+    background-color: white;
+    border-radius: 10px;
+    padding: 2rem;
+    min-width: 80%;
+    margin: 2rem;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+    color: #e8630a;
+}
+
+
+.button {
+    background-color: #e8630a !important;
+} 
+
+
+.button:hover {
+    background-color: white !important;
+    color: black;
+}
+
+
+@media screen and (min-width: 768px) {
+    .content {
+        justify-content: flex-end;
+    }
+    .form {
+        min-width: 24rem;
+    }
+}

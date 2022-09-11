@@ -1,0 +1,48 @@
+.poll-ranking {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 5%;
+    
+}
+
+.product-main {
+   
+        background-image: url("https://png.pngtree.com/thumb_back/fh260/back_pic/03/70/92/9057b6fa2816639.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+}
+.product-form {
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 2rem;
+    min-width: 40%;
+    min-height: 60%;
+    margin: 2rem;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    color: #e8630a;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+
+.product-button {
+    background-color: #e8630a !important;
+    border-radius: 8px;
+    border-color: white;
+    margin-top: 3rem;
+    max-width: 40%;
+    margin-left: 30%;
+} 
+
+
+.product-button:hover {
+    background-color: white !important;
+    color: black;
+}

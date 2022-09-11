@@ -1,0 +1,39 @@
+.content {
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/back_pic/03/70/92/9057b6fa2816639.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh; 
+    justify-content: center;
+   
+  }
+
+
+  .hero-heading {
+    color: #fff;
+    font-size: 1.5rem;
+    width: 80%;
+    font-weight: bolder;
+    margin-left: 10%;
+    font-size: 4rem;
+  }
+
+  .landing-text {
+    padding-top: 8rem;
+
+  }
+  
+  @media screen and (max-width: 450px) {
+    
+  .hero-heading {
+    color: #fff;
+    font-size: 2rem;
+  
+    font-weight: bolder;
+  
+ 
+  }
+
+    }
+    
+ 

@@ -1,0 +1,53 @@
+.submit-change-btn {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 1rem;
+
+}
+
+
+.dishes-button {
+    background-color: #e8630a !important;
+    border-radius: 8px;
+    border-color: white;
+    padding: 8px;
+    max-width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+  
+   
+} 
+
+
+.dishes-button:hover {
+    background-color: white !important;
+    color: black;
+}
+
+.table {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cast-vote {
+    color: #e8630a;
+    font-size: 2rem;
+    margin: 2rem;
+}
+
+.result-table {
+    color: #e8630a;
+    font-size: 1.5rem;
+
+}
+
+.alignment-table {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+

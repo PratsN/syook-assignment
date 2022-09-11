@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+#Dish Polling app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In this Dish polling app multiple users can login and cast their votes for their favourite dish
 
-## Available Scripts
+once you open the website you will be seeing the login button on left top corner so from there user can login to there account
 
-In the project directory, you can run:
+as there is no backend so Parameters are set for username and password as follows :
+ [
+        {
+         
+          "username": "amar",
+          "password": "amar123"
+        },
+        {
+         
+          "username": "akbar",
+          "password": "akbar123"
+        },
+        {
+          
+          "username": "antony",
+          "password": "antony123"
+        },
+        {
+         
+          "username": "john",
+          "password": "john123"
+        },
+        {
+        
+          "username": "paul",
+          "password": "paul123"
+        }
+      ]
 
-### `npm start`
+once user login they will be able to see option to vote with that there will be users avatar , name and logout button 
+user can logout with logout button and redirect to landing page
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+voting page are having two tabs one for cast the votes and other to see the results
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+users can't see the results unless they votes
 
-### `npm test`
+users can vote maximum 3 dishes and they will be raking as first vote : 30points , second vote : 20points  and third vote : 10 points
+once he cast the vote he should click on submit to submit the results and goto ranking section to see the results
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+In ranking section there will be two tables one to show user's selection and other to display polling results in descending order
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
